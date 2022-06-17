@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: group-config
+  namespace: demo
+data:
+  # JWT_ACCESS_EXPIRATION_MINUTES: "5"
+  # JWT_REFRESH_EXPIRATION_DAYS: "30"
